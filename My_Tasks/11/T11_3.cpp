@@ -43,7 +43,6 @@ int main()
                     direction = rand() % 360;
                     step.reset(dstep, direction, Vector::POL);
                     result = result + step;
-                    // myfile << steps << ": " << result << endl; 
                     steps++;
                 }
                 
@@ -60,17 +59,12 @@ int main()
                 result.reset(0.0, 0.0);
             }
             
-                        
-            // cout << "After " << steps << " steps man get position of: \n" << result << endl;
-            // myfile << "After " << steps << " steps man get position of: \n" << result << endl;
-            // result.polar_mode();
-            // cout << "Which mean\n"<< result << endl;
-            // myfile << "Which mean\n"<< result << endl;
-            // cout << "Average step lenght = "<< result.magval()/steps << endl;
-            // myfile << "Average step lenght = "<< result.magval()/steps << endl;
             cout << "Max steps value: "<< max << endl;
             cout << "Min steps value: "<< min << endl;
             cout << "Average steps value: "<< average << endl;
+            myfile << "Max steps value: "<< max << endl;
+            myfile << "Min steps value: "<< min << endl;
+            myfile << "Average steps value: "<< average << endl;
 
             min = 1.7e+308;
             max = 0;

@@ -271,3 +271,11 @@ Distance to walk: 50, step length: 1
 Distance to walk: 50, step length: 0.1
 Distance to walk: 50, step length: 1
 Distance to walk: 50, step length: 0.1
+Distance to walk: 50, step length: 1
+Max steps value: 6577
+Min steps value: 1059
+Average steps value: 17653
+Distance to walk: 50, step length: 0.001
+Max steps value: 3.06167e+08
+Min steps value: 1.95544e+08
+Average steps value: 1.14377e+09
